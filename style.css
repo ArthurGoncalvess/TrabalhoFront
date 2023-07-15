@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*-------------------------Header------------------------*/
+
+.nav-item{
+    color: black
+    
+}
+
+header.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 4;
+    background-image: url("/assets/Background/backgroundHeader.png");
+}
+
+/*-------------------------Body------------------------*/
+
+body {
+    background-image: url("/assets/Background/backgroundBody.png");
+}
+
+.tituloMoradores{
+    padding: 1vw;
+    font-size: 4vw;
+    color: white;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Arial Narrow Bold', sans-serif;
+}
+
+.lua {
+    padding: 1vw;
+    font-size: 4vw;
+    color: white;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Arial Narrow Bold', sans-serif;
+}
+
+.card-title-lua {
+    padding: 2vw;
+    font-size: 8vw;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.astronautas {
+    padding: 1vw;
+    font-size: 4vw;
+    color: white;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Arial Narrow Bold', sans-serif;
+
+}
+
+@keyframes animacao {
+    from {
+        transform: translateX(-600px);
+    }
+    to {
+        transform: translateX(1700px);
+    }
+}
+
+.image {
+    animation: animacao 4s infinite alternate;
+}
+
+/*-------------------------footer------------------------*/
+
+footer {
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-image: url("/assets/Background/backgroundHeader.png")
+}
